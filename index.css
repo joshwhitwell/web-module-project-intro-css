@@ -1,7 +1,7 @@
 /*Import Chelsea Market and Roboto Mono from Google Font*/
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
 
-/*CSS Reset*/
+/*CSS Reset
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -17,12 +17,12 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	/*border: 0;*/
+	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+HTML5 display-role reset for older browsers
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -44,7 +44,7 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
-}
+}*/
 
 /*General Styles*/
 * {
@@ -65,5 +65,49 @@ body {
 
 h1 {
 	font-family: 'Chelsea Market', cursive;
+}
+
+a {
+	display: inline-block;
+	width: 16%;
+	border-radius: 10px;
+	margin: 5% 8%;
+	text-align: center;
+	color: white;
+	border: none;
+	padding: 0 1%;
+}
+
+.a1 {
+	background: #FF764E;
+}
+
+.a2 {
+	background: #5ED3EB;
+}
+
+.a3 {
+	background: #FFCD69;
+}
+
+.headerImage {
+	border-radius: 50%;
+	width: 25%;
+	display: inline-block;
+	margin: 5% 5%;
+}
+
+.header {
+	display: inline-block;
+	width: 50%;
+	text-align: center;
+	margin: 5% 5%;
+}
+
+section {
+	background: #DDB9A3;
+	color: white;
+	width: 95%;
+	margin: 0 auto;
 }
 
